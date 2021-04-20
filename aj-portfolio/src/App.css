@@ -1,0 +1,117 @@
+
+* {
+  margin: 0;
+}
+.headerColor {
+  background: #2515ff;
+  background: -webkit-linear-gradient(to left, #f7797d, #2515ff, #51ff15);
+  background: linear-gradient(to left, #f7797d, #2515ff, #51ff15);
+}
+.landing_grid {
+  background: #2515ff;
+  background: -webkit-linear-gradient(to left, #f7797d, #2515ff, #51ff15);
+  background: linear-gradient(to left, #f7797d, #2515ff, #51ff15);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.ajFace {
+  padding-bottom: 15px;
+  height: 300px;
+  padding-top: 5em;
+}
+.banner_text {
+  background: rgba(8, 8, 8, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 75%;
+  margin: auto;
+}
+.banner_text h1 {
+  font-size: 75px;
+  font-weight: bold;
+  color: white;
+}
+.banner_text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+.banner_text p {
+  color: white;
+  font-size: 24px;
+  padding: 1em;
+}
+.social_links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.social_links i .MuiSvgIcon-root {
+  color: white;
+  font-size: 90px;
+  padding-bottom: 20px;
+}
+
+/* ^^^^ Landing page     */
+/*      Projects page    */
+
+.project_grid {
+  display: flex;
+}
+
+/* ^^^^ Projects page   */
+/*      Contact page    */
+.contact_body {
+  margin: auto;
+  background: #2515ff;
+  background: -webkit-linear-gradient(to left, #f7797d, #2515ff, #51ff15);
+  background: linear-gradient(to left, #f7797d, #2515ff, #51ff15);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+.contact_grid {
+  background: rgba(245, 239, 239, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  color: black;
+}
+.contact_grid h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.contact_grid p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.contact_grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact_content .MuiSvgIcon-root{
+  padding-right: 20px;
+  
+  font-size: 66px;
+  padding-bottom: 20px;
+  
+}
