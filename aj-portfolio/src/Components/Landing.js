@@ -3,6 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import ajface from "../Images/ajface.png";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import YouTubeIcon from '@material-ui/icons/YouTube';
 
 function Landing() {
   return (
@@ -34,6 +35,15 @@ function Landing() {
               >
                 <i>
                   <LinkedInIcon />
+                </i>
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCRM3UBEgpiw3CzL4C9Z7CEA/featured"
+                rel="noopener noreferrer"
+                target="blank"
+              >
+                <i>
+                  <YouTubeIcon />
                 </i>
               </a>
             </div>

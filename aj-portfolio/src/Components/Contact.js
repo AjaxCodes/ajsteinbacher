@@ -4,7 +4,7 @@ import ajpic from "../Images/ajpic.png";
 import PhoneIphoneIcon from "@material-ui/icons/PhoneIphone";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
-
+import YouTubeIcon from "@material-ui/icons/YouTube";
 function Contact() {
   return (
     <div className="contact_body">
@@ -30,7 +30,7 @@ function Contact() {
               <ListItem>
                 <ListItemContent
                   style={{
-                    fontSize: "25px",
+                    fontSize: "20px",
                     fontFamily: "Verdana, Geneva, Tahoma, sans-serif",
                     fontWeight: "bold",
                   }}
@@ -42,7 +42,7 @@ function Contact() {
               <ListItem>
                 <ListItemContent
                   style={{
-                    fontSize: "25px",
+                    fontSize: "20px",
                     fontFamily: "Verdana, Geneva, Tahoma, sans-serif",
                     fontWeight: "bold",
                   }}
@@ -61,6 +61,18 @@ function Contact() {
                 >
                   <LinkedInIcon />
                   linkedin.com/in/a-j-steinbacher-703779a6/
+                </ListItemContent>
+              </ListItem>
+              <ListItem>
+                <ListItemContent
+                  style={{
+                    fontSize: "11px",
+                    fontFamily: "Verdana, Geneva, Tahoma, sans-serif",
+                    fontWeight: "bold",
+                  }}
+                >
+                  <YouTubeIcon />
+                  youtube.com/channel/UCRM3UBEgpiw3CzL4C9Z7CEA/featured
                 </ListItemContent>
               </ListItem>
             </List>
